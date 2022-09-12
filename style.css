@@ -23,6 +23,9 @@
 .w25 {
   width: 25%;
 }
+.w10 {
+  width: 10%;
+}
 .textPaagraph {
   font-size: 13px;
   line-height: 20px;
@@ -140,7 +143,7 @@ nav {
   margin-bottom: 25px;
 }
 
-#mainProgram {
+.bgDark {
   background-color: #272a31;
 }
 
@@ -181,4 +184,17 @@ nav {
   width: 25px;
   height: 10px;
   border-bottom: 1px solid;
+}
+
+.partnerContainer {
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 40px;
+  align-items:center;
+}
+
+footer {
+  justify-content: space-around;
+  align-items: center;
 }
