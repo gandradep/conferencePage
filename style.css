@@ -16,6 +16,10 @@
 .w75 {
   width: 75%;
 }
+
+.italic {
+  font-style: italic;
+}
 .w25 {
   width: 25%;
 }
@@ -25,6 +29,10 @@
 }
 .fs12 {
   font-size: 12px;
+}
+
+.fs14 {
+  font-size: 14px;
 }
 .fs16 {
   font-size: 16px;
@@ -55,8 +63,20 @@
   color: #272a31;
 }
 
+.hAuto {
+  height: auto;
+}
 .textDark {
   color: #515151;
+}
+
+.paddingX5 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.mBottom10 {
+  margin-bottom: 10px;
 }
 
 .textWhite {
@@ -84,6 +104,11 @@
   margin-right: auto;
 }
 
+.padSections {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
 #navLanding {
   background-image: url(assets/mobileBackground.jpg);
   height: auto;
@@ -97,7 +122,7 @@ nav {
 
 #landing {
   height: calc(100% - 90px);
-  padding: 0 5%;
+
 }
 
 #hamburger {
@@ -117,8 +142,6 @@ nav {
 
 #mainProgram {
   background-color: #272a31;
-  padding-top: 40px;
-  padding-bottom: 50px;
 }
 
 .guideBar {
@@ -134,7 +157,7 @@ nav {
   align-items: center;
   background-color: rgba(200, 200, 200, 0.25);
   padding: 15px;
-  margin-bottom: 10px;
+
 
 }
 .button {
@@ -142,5 +165,20 @@ nav {
   width: 60%;
   padding: 25px 15px;
   margin-top: 40px;
+}
 
+.speaker {
+  justify-content: space-between;
+  margin-bottom: 35px;
+  align-items: center;
+}
+
+.speakerInfo {
+  width: 70%;
+}
+
+.barSpeakerInfo {
+  width: 25px;
+  height: 10px;
+  border-bottom: 1px solid;
 }
