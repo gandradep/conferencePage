@@ -11,3 +11,4 @@
   - [@vectorstall](https://thenounproject.com/vectorstall/)
   - [@jamesstone](https://thenounproject.com/jistone/)
   - [@adriencoquet](https://thenounproject.com/coquet_adrien/)
+  - [@threesixfive](https://thenounproject.com/365/)
