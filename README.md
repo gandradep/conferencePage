@@ -12,3 +12,4 @@
   - [@jamesstone](https://thenounproject.com/jistone/)
   - [@adriencoquet](https://thenounproject.com/coquet_adrien/)
   - [@threesixfive](https://thenounproject.com/365/)
+  - [@hcp18](https://thenounproject.com/humbertopornaro/)

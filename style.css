@@ -23,6 +23,10 @@
 .w25 {
   width: 25%;
 }
+
+.w90 {
+  width: 90%;
+}
 .w10 {
   width: 10%;
 }
@@ -61,6 +65,14 @@
   font-weight: 800;
   margin-bottom: 10px;
 }
+
+p a:link,
+p a:hover,
+p a:active,
+p a:visited {
+  color: inherit;
+}
+
 
 .darkColor {
   color: #272a31;
@@ -111,9 +123,13 @@
   padding-top: 40px;
   padding-bottom: 50px;
 }
-
-#navLanding {
+.homePage {
   background-image: url(assets/mobileBackground.jpg);
+}
+.aboutPage {
+  background-image: url(assets/mobAboutBg.jpg);
+}
+#navLanding {
   height: auto;
   padding-bottom: 60px;
 }
@@ -194,7 +210,26 @@ nav {
   align-items:center;
 }
 
+.evento2018 {
+  background-image: url(assets/pastEvent1.png);
+}
+
+.evento2019 {
+  background-image: url(assets/pastEvent2.png);
+}
+
+.evento {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20%;
+  width: 100%;
+  text-decoration: none;
+
+}
+
 footer {
   justify-content: space-around;
   align-items: center;
+  border-top:#272a31 1px solid; 
 }
