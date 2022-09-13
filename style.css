@@ -221,6 +221,11 @@ nav {
   margin-top: 40px;
 }
 
+.speakerContainer {
+  flex-direction: column;
+  width: 100%;
+}
+
 .speaker {
   justify-content: space-between;
   margin-bottom: 35px;
@@ -241,8 +246,16 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   row-gap: 25px;
-  column-gap: 40px;
+  column-gap: 2.5rem;
   align-items:center;
+}
+
+.part-w25 {
+  width: 25%;
+}
+
+.partSilla {
+  width: 8%;
 }
 
 #foundation p {
@@ -266,13 +279,11 @@ nav {
 }
 
 .evento {
-
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 20%;
   width: 100%;
   text-decoration: none;
-
 }
 
 footer {
@@ -399,5 +410,25 @@ footer {
     margin-bottom: 40px;
 
   }
+  .speakerContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .speaker {
+    width: 45%;
+  }
 
+  .part-w25 {
+    width: 15%;
+    max-width: 170px;
+  }
+
+  .partSilla {
+    width: 4%;
+    max-width: 40px;
+  }
+
+  .partnerContainer {
+
+  }
 }
