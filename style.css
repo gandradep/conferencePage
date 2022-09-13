@@ -14,7 +14,6 @@ html {
   -webkit-text-fill-color: transparent;
   font-size: 2.5rem;
   line-height: 2.875rem;
-
 }
 
 .w10 {
@@ -259,7 +258,13 @@ nav {
 }
 
 #foundation p {
-  line-height: 20px;
+  line-height: 1.25rem;
+}
+
+.pastEventContainer {
+  flex-direction: column;
+  width: 100%;
+  row-gap:20px;
 }
 
 .evento2018 {
@@ -280,10 +285,14 @@ nav {
 
 .evento {
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  padding: 20%;
+  background-size: cover;
+  height: 200px;
   width: 100%;
   text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
 }
 
 footer {
@@ -292,12 +301,21 @@ footer {
   border-top:#272a31 1px solid;
 }
 
+.logoFooter {
+  width: 25%;
+}
+
 @media only screen and (min-width: 768px) {
   html {
     font-size: 25px;
   }
   .noneDesktop {
     display: none;
+  }
+
+  .paddingX5 {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   nav {
@@ -356,22 +374,28 @@ footer {
 
   #landing {
     height: calc(100% - 130px);
-    background-image: url(assets/deskHomeBg.jpg);
-    background-size: cover;
     justify-content: center;
     row-gap: 30px;
-    padding-left: 10%;
-    padding-right: 30%;
 
   }
 
-  .paddingX5 {
+  .bgImgHome {
+    background-image: url(assets/deskHomeBg.jpg);
+    background-size: cover;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 30%;
+  }
+
+  .bgImgAbout {
+    background-image: url(assets/deskAboutBg.jpg);
+    background-size: cover;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
   .invitationContainer {
     padding:30px;
+    margin: 0;
   }
   .fw800 {
     font-weight: 900;
@@ -427,8 +451,24 @@ footer {
     width: 4%;
     max-width: 40px;
   }
+  #pastEvents {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .pastEventContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-  .partnerContainer {
+  .evento {
+    width: 45%;
 
+    padding: 0;
+  }
+
+  .logoFooter {
+    width: 12%;
+    max-width: 113px;
   }
 }
