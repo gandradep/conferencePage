@@ -4,9 +4,11 @@
   padding: 0;
   font-family: 'Lato', sans-serif;
 }
+
 html {
   font-size: 16px;
 }
+
 .bigTitle {
   background-image: url(assets/textBg.jpg);
   background-repeat: repeat;
@@ -52,37 +54,51 @@ html {
 .noneMobileToBlock {
   display: none;
 }
+
 .showMenu {
   display: block;
   position: fixed;
   height: 100vh;
   width: 80%;
-  background-color: rgba(10,10,10,0.8);
+  background-color: rgba(10, 10, 10, 0.8);
   z-index: 1;
 }
+
 .showMenu ul {
   flex-direction: column;
-  padding-top:20px;
+  padding-top: 20px;
   row-gap: 20px;
 }
+
 #closeMenuSymbol {
   align-self: flex-end;
 }
+
+p a:link,
+p a:hover,
+p a:active,
+p a:visited {
+  color: inherit;
+}
+
 .showMenu a:link,
 .showMenu a:hover,
 .showMenu a:active,
-.showMenu a:visited  {
+.showMenu a:visited {
   color: white;
   font-size: 1.6rem;
   font-weight: 600;
 }
+
 .navDeskMenu li {
   list-style: none;
 }
+
 .textPaagraph {
   font-size: 0.813rem;
   line-height: 1.25rem;
 }
+
 .fs12 {
   font-size: 0.75rem;
 }
@@ -90,21 +106,22 @@ html {
 .fs14 {
   font-size: 0.875rem;
 }
+
 .fs16 {
   font-size: 1rem;
 }
+
 .fs18 {
   font-size: 1.125rem;
-
 }
+
 .fs22 {
-  font-size:1.375rem;
+  font-size: 1.375rem;
 }
 
 .fw400 {
   font-weight: 400;
 }
-
 
 .fw700 {
   font-weight: 700;
@@ -115,14 +132,6 @@ html {
   margin-bottom: 10px;
 }
 
-p a:link,
-p a:hover,
-p a:active,
-p a:visited {
-  color: inherit;
-}
-
-
 .darkColor {
   color: #272a31;
 }
@@ -130,6 +139,7 @@ p a:visited {
 .hAuto {
   height: auto;
 }
+
 .textDark {
   color: #515151;
 }
@@ -176,14 +186,17 @@ p a:visited {
   padding-top: 40px;
   padding-bottom: 50px;
 }
+
 .homePage {
   background-image: url(assets/mobileBackground.jpg);
   background-size: cover;
 }
+
 .aboutPage {
   background-image: url(assets/mobAboutBg.jpg);
   background-size: cover;
 }
+
 #navLanding {
   height: auto;
   padding-bottom: 60px;
@@ -197,7 +210,6 @@ nav {
 #landing {
   height: calc(100% - 90px);
   flex-direction: column;
-
 }
 
 #hamburger {
@@ -209,8 +221,9 @@ nav {
 
 #containerProgram {
   flex-direction: column;
-  row-gap:10px;
+  row-gap: 10px;
 }
+
 .invitationContainer {
   border: white 4px solid;
   background-color: rgb(247, 247, 248);
@@ -236,9 +249,8 @@ nav {
   align-items: center;
   background-color: rgba(200, 200, 200, 0.25);
   padding: 0.938rem;
-
-
 }
+
 .button {
   background-color: #ec5242;
   width: 60%;
@@ -272,7 +284,7 @@ nav {
   flex-wrap: wrap;
   row-gap: 25px;
   column-gap: 2.5rem;
-  align-items:center;
+  align-items: center;
 }
 
 .part-w25 {
@@ -290,7 +302,7 @@ nav {
 .pastEventContainer {
   flex-direction: column;
   width: 100%;
-  row-gap:20px;
+  row-gap: 20px;
 }
 
 .evento2018 {
@@ -324,7 +336,7 @@ nav {
 footer {
   justify-content: space-around;
   align-items: center;
-  border-top:#272a31 1px solid;
+  border-top: #272a31 1px solid;
 }
 
 .logoFooter {
@@ -335,6 +347,7 @@ footer {
   html {
     font-size: 25px;
   }
+
   .noneDesktop {
     display: none;
   }
@@ -360,7 +373,7 @@ footer {
     justify-content: flex-end;
     column-gap: 15px;
     align-items: center;
-    height:50px;
+    height: 50px;
     padding-right: 10%;
   }
 
@@ -369,7 +382,6 @@ footer {
     align-items: center;
     height: 80px;
     background-color: white;
-
   }
 
   .logo {
@@ -398,7 +410,6 @@ footer {
     height: calc(100% - 130px);
     justify-content: center;
     row-gap: 30px;
-
   }
 
   .bgImgHome {
@@ -416,12 +427,14 @@ footer {
   }
 
   .invitationContainer {
-    padding:30px;
+    padding: 30px;
     margin: 0;
   }
+
   .fw800 {
     font-weight: 900;
   }
+
   .textPaagraph {
     font-weight: 400;
   }
@@ -436,17 +449,18 @@ footer {
 
   .progOption {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    row-gap: 10px;
+  }
 
-  }
   .progOption h3 {
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
   }
+
   .progOption p {
-      width: 100%;
-      text-align: center;
-      padding:
+    width: 100%;
+    text-align: center;
   }
 
   .underline {
@@ -454,12 +468,13 @@ footer {
     height: 5px;
     border-bottom: 1px solid white;
     margin-bottom: 40px;
-
   }
+
   .speakerContainer {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .speaker {
     width: 45%;
   }
@@ -473,10 +488,12 @@ footer {
     width: 4%;
     max-width: 40px;
   }
+
   #pastEvents {
     padding-left: 20%;
     padding-right: 20%;
   }
+
   .pastEventContainer {
     flex-direction: row;
     justify-content: space-between;
@@ -485,7 +502,6 @@ footer {
 
   .evento {
     width: 45%;
-
     padding: 0;
   }
 
