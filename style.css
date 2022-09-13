@@ -9,6 +9,15 @@
   font-size: 40px;
   line-height: 46px;
 }
+
+.w10 {
+  width: 10%;
+}
+
+.w25 {
+  width: 25%;
+}
+
 .w50 {
   width: 50%;
 }
@@ -17,19 +26,23 @@
   width: 75%;
 }
 
-.italic {
-  font-style: italic;
-}
-.w25 {
-  width: 25%;
-}
-
 .w90 {
   width: 90%;
 }
-.w10 {
-  width: 10%;
+
+.w100 {
+  width: 100%;
 }
+
+.decorNone {
+  text-decoration: none;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
 .textPaagraph {
   font-size: 13px;
   line-height: 20px;
@@ -110,6 +123,10 @@ p a:visited {
   display: flex;
 }
 
+.dBlock {
+  display: block;
+}
+
 .textAlignCenter {
   text-align: center;
 }
@@ -167,7 +184,7 @@ nav {
   width: 53px;
   height: 16px;
   border-bottom: 1px solid;
-  margin-bottom: 54px;
+  margin-bottom: 40px;
 }
 
 .progOption {
@@ -210,16 +227,28 @@ nav {
   align-items:center;
 }
 
+#foundation p {
+  line-height: 20px;
+}
+
 .evento2018 {
   background-image: url(assets/pastEvent1.png);
+}
+
+.evento2018:hover {
+  background-image: url(assets/pastEvent1Hover.png);
 }
 
 .evento2019 {
   background-image: url(assets/pastEvent2.png);
 }
 
+.evento2019:hover {
+  background-image: url(assets/pastEvent2Hover.png);
+}
+
 .evento {
-  display: block;
+
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 20%;
@@ -231,5 +260,5 @@ nav {
 footer {
   justify-content: space-around;
   align-items: center;
-  border-top:#272a31 1px solid; 
+  border-top:#272a31 1px solid;
 }

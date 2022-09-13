@@ -5,7 +5,7 @@
 ## Acknowledgments
 
 - This project was achieved following the repositories created by Microverse.
-- The design for this project is based on the Microverse student portfolio templates.
+- The design for this project is based on a design from [@Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Noun projects icons from:
   - [@sunardi](https://thenounproject.com/Noplubery/)
   - [@vectorstall](https://thenounproject.com/vectorstall/)
