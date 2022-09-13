@@ -49,7 +49,8 @@ html {
   font-style: italic;
 }
 
-.noneMobileToFlex {
+.noneMobileToFlex,
+.noneMobileToBlock {
   display: none;
 }
 
@@ -181,6 +182,10 @@ nav {
   left: 20px;
 }
 
+#containerProgram {
+  flex-direction: column;
+  row-gap:10px;
+}
 .invitationContainer {
   border: white 4px solid;
   background-color: rgb(247, 247, 248);
@@ -201,11 +206,11 @@ nav {
 }
 
 .progOption {
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(200, 200, 200, 0.25);
-  padding: 15px;
+  padding: 0.938rem;
 
 
 }
@@ -292,6 +297,10 @@ footer {
     display: flex;
   }
 
+  .noneMobileToBlock {
+    display: block;
+  }
+
   .navMedia {
     justify-content: flex-end;
     column-gap: 15px;
@@ -350,8 +359,6 @@ footer {
     padding-right: 10%;
   }
 
-
-
   .invitationContainer {
     padding:30px;
   }
@@ -360,6 +367,37 @@ footer {
   }
   .textPaagraph {
     font-weight: 400;
+  }
+
+  #containerProgram {
+    flex-direction: row;
+    column-gap: 10px;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 1300px;
+  }
+
+  .progOption {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .progOption h3 {
+      width: 100%;
+      text-align: center;
+  }
+  .progOption p {
+      width: 100%;
+      text-align: center;
+      padding:
+  }
+
+  .underline {
+    width: 9.8rem;
+    height: 5px;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+
   }
 
 }
