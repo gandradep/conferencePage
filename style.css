@@ -52,7 +52,33 @@ html {
 .noneMobileToBlock {
   display: none;
 }
-
+.showMenu {
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: 80%;
+  background-color: rgba(10,10,10,0.8);
+  z-index: 1;
+}
+.showMenu ul {
+  flex-direction: column;
+  padding-top:20px;
+  row-gap: 20px;
+}
+#closeMenuSymbol {
+  align-self: flex-end;
+}
+.showMenu a:link,
+.showMenu a:hover,
+.showMenu a:active,
+.showMenu a:visited  {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.navDeskMenu li {
+  list-style: none;
+}
 .textPaagraph {
   font-size: 0.813rem;
   line-height: 1.25rem;
@@ -344,10 +370,6 @@ footer {
     height: 80px;
     background-color: white;
 
-  }
-
-  .navDeskMenu li {
-    list-style: none;
   }
 
   .logo {

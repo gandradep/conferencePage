@@ -18,12 +18,14 @@
         <a href="https://twitter.com/ProcessingOrg" target="_blank"><img src="assets/twitter.svg" alt="twitter"></a>
         <a href="https://processing.org/" target="_blank" class="textWhite fs12 decorNone">Processing Org</a>
       </div>
-      <div class="noneMobileToFlex navDeskMenu paddingX5">
-        <a href="#" class="logo hAuto"><img class="w100"src="assets/logo.svg" alt=""></a>
+      <div id="popMenu" class="noneMobileToFlex navDeskMenu paddingX5">
+        <a href="#" class="logo hAuto noneMobileToBlock"><img class="w100"src="assets/logo.svg" alt=""></a>
+
         <ul class="dFlex textDark fs14">
-          <li><a href="about.html">About</a></li>
-          <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#partners">Partners</a></li>
+          <li id="closeMenuSymbol" class="noneDesktop"><a class="decorNone" href="">X</a></li>
+          <li><a class="decorNone" href="about.html">About</a></li>
+          <li><a class="decorNone" href="#speakers">Speakers</a></li>
+          <li><a class="decorNone" href="#partners">Partners</a></li>
         </ul>
       </div>
     </nav>
@@ -124,6 +126,6 @@
       <p>Some Rights Reserved.</p>
     </div>
   </footer>
-
+  <script src="mobileMenu.js"></script>
 </body>
 </html>
