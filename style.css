@@ -42,6 +42,9 @@
   font-style: italic;
 }
 
+.noneMobileToFlex {
+  display: none;
+}
 
 .textPaagraph {
   font-size: 13px;
@@ -142,9 +145,11 @@ p a:visited {
 }
 .homePage {
   background-image: url(assets/mobileBackground.jpg);
+  background-size: cover;
 }
 .aboutPage {
   background-image: url(assets/mobAboutBg.jpg);
+  background-size: cover;
 }
 #navLanding {
   height: auto;
@@ -261,4 +266,74 @@ footer {
   justify-content: space-around;
   align-items: center;
   border-top:#272a31 1px solid;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .noneDesktop {
+    display: none;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  .noneMobileToFlex {
+    display: flex;
+  }
+
+  .navMedia {
+    justify-content: flex-end;
+    column-gap: 15px;
+    align-items: center;
+    height:50px;
+    padding-right: 10%;
+  }
+
+  .navDeskMenu {
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+
+  }
+
+  .navDeskMenu li {
+    list-style: none;
+  }
+
+  .logo {
+    width: 75px;
+  }
+
+  .navDeskMenu ul {
+    column-gap: 50px;
+  }
+
+  li a:link,
+  li a:hover,
+  li a:active,
+  li a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #navLanding {
+    background-image: none;
+    height: 100vh;
+    padding-bottom: 0;
+  }
+
+  #landing {
+    height: calc(100% - 130px);
+    background-image: url(assets/deskHomeBg.jpg);
+    background-size: cover;
+
+  }
+
+  .paddingX5 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
 }
