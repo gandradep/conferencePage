@@ -5,6 +5,8 @@ const speakerData = {
     'Francesca Rodriguez',
     'Miguel Murgeytio',
     'Juan Egusquiza',
+    'Daniel Shiffman',
+    'Sergio Mora-Diaz',
   ],
   title:
   [
@@ -12,6 +14,8 @@ const speakerData = {
     'MPS Interactive Telecommunication Program',
     'Master in Multimedia Creation and Serious Games',
     'Digital Artist, Adobe Resident',
+    'NYU Full Time Faculty',
+    'Visual Artist',
   ],
   description:
   [
@@ -19,6 +23,8 @@ const speakerData = {
     'Is a Peruvian artist, designer and educator whose work lies at the intersection of storytelling and technology.',
     'He has created visual experiences for renowned musical artists such as: Richie Hawtin (UK), among others.',
     'His work is based on the exploration of digital tools for the creation of static and moving images.',
+    'Daniel Shiffman is a computer programmer, member of the Board of Directors of the Processing Foundation',
+    'His work explores digital technologies and light as mediators between physical spaces, nature and the human body.',
   ],
   picLink:
   [
@@ -26,6 +32,8 @@ const speakerData = {
     'assets/francesca.jpg',
     'assets/miguel.jpg',
     'assets/jose.jpg',
+    'assets/daniel.jpg',
+    'assets/sergio.jpg',
   ],
 };
 const guests = document.getElementById('guests');
