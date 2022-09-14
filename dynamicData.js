@@ -32,22 +32,12 @@ const guests = document.getElementById('guests');
 let clicked = false;
 let indexGuest = 2;
 const moreButton = document.getElementById('moreButton');
-const isButton = window.getComputedStyle(moreButton,null).getPropertyValue('display');
+const isButton = window.getComputedStyle(moreButton, null).getPropertyValue('display');
 if (isButton === 'none') {
   indexGuest = speakerData.title.length;
 }
-showGuests(0);
-moreButton.addEventListener('click', showHid);
-console.log(indexGuest);
-function showHid(){
-  indexGuest = speakerData.title.length;
-  showGuests(2);
-  moreButton.classList.add('displayNone');
-  clicked = true;
-}
-
 function showGuests(start) {
-  for (let i = start; i < indexGuest; i +=1) {
+  for (let i = start; i < indexGuest; i += 1) {
     const article = document.createElement('article');
     article.className = 'speaker dFlex';
     const image = document.createElement('img');
@@ -71,14 +61,19 @@ function showGuests(start) {
     article.append(image, div);
     guests.appendChild(article);
   }
-
 }
-
+function showHid() {
+  indexGuest = speakerData.title.length;
+  showGuests(2);
+  moreButton.classList.add('displayNone');
+  clicked = true;
+}
+showGuests(0);
+moreButton.addEventListener('click', showHid);
 
 window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     indexGuest = speakerData.title.length;
-    if(clicked === false){showGuests(2);}
-
+    if (clicked === false) { showGuests(2); }
   }
 });
