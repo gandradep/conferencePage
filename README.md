@@ -3,7 +3,8 @@
 > Conference page for the Processing Community Day.
 > The project works by opening the index.html file. If linters are checked locally, please don't forget to install the needed modules `npm install`
 >[Link to website](https://gandradep.github.io/conferencePage/index.html)
->You can see a [video](https://drive.google.com/file/d/1mRxpqNXJngYoiooqneI-6Jk-03wttfDS/view?usp=sharing) describing the project.
+>You can see a [video](https://drive.google.com/file/d/1qpuPBtOSca4CN2miKV9YOalCvsCIqMIP/view?usp=sharing) describing the project.
+
 ## Built With
 
 - Html, css, js.
