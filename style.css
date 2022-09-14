@@ -51,7 +51,8 @@ html {
 }
 
 .noneMobileToFlex,
-.noneMobileToBlock {
+.noneMobileToBlock,
+.displayNone {
   display: none;
 }
 
@@ -258,14 +259,24 @@ nav {
   margin-top: 40px;
 }
 
+#moreButton {
+  border: #d3d3d3 solid 1px;
+  width: 70%;
+  padding: 15px;
+  margin-top: 40px;
+  user-select: none;
+}
+
 .speakerContainer {
   flex-direction: column;
   width: 100%;
+  row-gap: 2.188rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .speaker {
   justify-content: space-between;
-  margin-bottom: 35px;
   align-items: center;
 }
 
@@ -417,6 +428,10 @@ footer {
     background-size: cover;
     padding-left: 10%;
     padding-right: 30%;
+  }
+
+  #moreButton {
+    display: none;
   }
 
   .bgImgAbout {
