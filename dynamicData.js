@@ -29,12 +29,13 @@ const speakerData = {
   ],
 };
 const guests = document.getElementById('guests');
-let clicked = false;
+let clicked;
 let indexGuest = 2;
 const moreButton = document.getElementById('moreButton');
 const isButton = window.getComputedStyle(moreButton, null).getPropertyValue('display');
 if (isButton === 'none') {
   indexGuest = speakerData.title.length;
+  moreButton.classList.add('displayNone');
 }
 function showGuests(start) {
   for (let i = start; i < indexGuest; i += 1) {
@@ -74,6 +75,9 @@ moreButton.addEventListener('click', showHid);
 window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     indexGuest = speakerData.title.length;
-    if (clicked === false) { showGuests(2); }
+    if (clicked === false) {
+      showGuests(2);
+      clicked = true;
+    }
   }
 });

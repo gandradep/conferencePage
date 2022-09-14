@@ -1,6 +1,25 @@
 # Conference Web Page
 
 > Conference page for the Processing Community Day.
+> The project works by opening the index.html file. If linters are checked locally, please don't forget to install the needed modules `npm install`
+>[Link to website](https://gandradep.github.io/conferencePage/index.html)
+>You can see a [video](https://drive.google.com/file/d/1zi1LqKKeXmcobK8FrPMoDeVgy2jdjUxp/view?usp=sharing) describing the project. 
+## Built With
+
+- Html, css, js.
+- Linters.
+
+## Authors
+
+👤 **Gabriel Andrade**
+
+- GitHub: [@gandradep](https://github.com/gandradep)
+- Twitter: [@leribagandrade](https://twitter.com/leribagandrade)
+- LinkedIn: [Gabriel-Andrade](https://www.linkedin.com/in/gabriel-andrade-silla-turca/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
@@ -13,3 +32,7 @@
   - [@adriencoquet](https://thenounproject.com/coquet_adrien/)
   - [@threesixfive](https://thenounproject.com/365/)
   - [@hcp18](https://thenounproject.com/humbertopornaro/)
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
