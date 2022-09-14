@@ -400,7 +400,14 @@ footer {
   }
 
   .navDeskMenu ul {
-    column-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
+
+  .register {
+    border: #ec5242 solid 2px;
+    padding: min(3%, 10px);
   }
 
   li a:link,
