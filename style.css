@@ -420,20 +420,14 @@ footer {
 
   #navLanding {
     background-image: none;
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 0;
-    overflow: scroll;
   }
 
   #landing {
     justify-content: center;
     row-gap: min(30px, 3vh);
     flex-grow: 1;
-    flex-shrink: 1;
-  }
-
-  #landing > * {
-    min-height: 0;
   }
 
   #foundation {
